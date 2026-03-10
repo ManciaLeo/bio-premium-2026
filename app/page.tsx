@@ -13,21 +13,21 @@ export default function LinksBio() {
     {
       titulo: "Acessar Catálogo Digital",
       subtitulo: "Mármores, Granitos e Quartzos",
-      url: "/catalogo",
+      url: "https://URL_DO_TEU_SITE_PRINCIPAL.vercel.app/catalogo", // <-- LINK ATUALIZADO
       destaque: false,
-      icone: "💎" // Usando emoji como ícone rápido e moderno
+      icone: "💎" 
     },
     {
       titulo: "Nossos Serviços",
       subtitulo: "Cozinhas, Banheiros e Projetos Especiais",
-      url: "/servicos",
+      url: "https://URL_DO_TEU_SITE_PRINCIPAL.vercel.app/servicos", // <-- LINK ATUALIZADO
       destaque: false,
       icone: "🏗️"
     },
     {
       titulo: "Visite nosso Site Oficial",
       subtitulo: "Conheça a nossa história",
-      url: "/",
+      url: "https://URL_DO_TEU_SITE_PRINCIPAL.vercel.app/", // <-- LINK ATUALIZADO
       destaque: false,
       icone: "🌐"
     },
@@ -38,6 +38,7 @@ export default function LinksBio() {
       destaque: false,
       icone: "📍"
     }
+  
   ];
 
   return (
