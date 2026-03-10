@@ -21,9 +21,9 @@
 
 /* Criando as classes para usar no HTML */
 .animate-neon-amber {
-  animation: neon-amber 0.1s alternate infinite ease-in-out;
+  animation: neon-amber 1.5s alternate infinite ease-in-out;
 }
 
 .animate-neon-blue {
-  animation: neon-blue 0.1s alternate infinite ease-in-out;
+  animation: neon-blue 1.5s alternate infinite ease-in-out;
 }
