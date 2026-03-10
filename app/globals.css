@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+/* O seu código raiz de animação! */
+@keyframes neon-amber {
+  from {
+    filter: drop-shadow(0 0 0 transparent);
+  }
+  to {
+    filter: drop-shadow(0 0 15px rgba(245, 158, 11, 0.8)); /* Cor Âmbar */
+  }
+}
+
+@keyframes neon-blue {
+  from {
+    filter: drop-shadow(0 0 0 transparent);
+  }
+  to {
+    filter: drop-shadow(0 0 15px rgba(59, 130, 246, 0.8)); /* Cor Azul */
+  }
+}
+
+/* Criando as classes para usar no HTML */
+.animate-neon-amber {
+  animation: neon-amber 0.7s alternate infinite ease-in-out;
+}
+
+.animate-neon-blue {
+  animation: neon-blue 0.7s alternate infinite ease-in-out;
+}
