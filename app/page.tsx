@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 export default function LinksBio() {
-  const links = [
+ const links = [
     {
       titulo: "Falar com Especialista (WhatsApp)",
       subtitulo: "Orçamentos rápidos e sem compromisso",
@@ -12,21 +12,21 @@ export default function LinksBio() {
     {
       titulo: "Acessar Catálogo Digital",
       subtitulo: "Mármores, Granitos e Quartzos",
-      url: "https://departamento-da-pedra.vercel.app/catalogo", // Coloque aqui o link real do site
+      url: "https://URL_DO_TEU_SITE_PRINCIPAL.vercel.app/catalogo", // <-- LINK ATUALIZADO
       destaque: false,
       icone: "💎" 
     },
     {
       titulo: "Nossos Serviços",
       subtitulo: "Cozinhas, Banheiros e Projetos Especiais",
-      url: "https://departamento-da-pedra.vercel.app/servicos", // Coloque aqui o link real do site
+      url: "https://URL_DO_TEU_SITE_PRINCIPAL.vercel.app/servicos", // <-- LINK ATUALIZADO
       destaque: false,
       icone: "🏗️"
     },
     {
       titulo: "Visite nosso Site Oficial",
       subtitulo: "Conheça a nossa história",
-      url: "https://departamento-da-pedra.vercel.app/", // Coloque aqui o link real do site
+      url: "https://URL_DO_TEU_SITE_PRINCIPAL.vercel.app/", // <-- LINK ATUALIZADO
       destaque: false,
       icone: "🌐"
     },
